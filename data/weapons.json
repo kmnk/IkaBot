@@ -1,0 +1,515 @@
+[
+  {
+    "type": "Shooters",
+    "localized_name": {
+      "ja_JP": "シューター",
+      "en_US": "Shooters"
+    },
+    "weapons": [
+      {
+        "name": "Splattershot Jr.",
+        "localized_name": {
+          "ja_JP": "わかばシューター",
+          "en_US": "Splattershot Jr."
+        }
+      },
+      {
+        "name": "Custom Splattershot Jr.",
+        "localized_name": {
+          "ja_JP": "もみじシューター",
+          "en_US": "Custom Splattershot Jr."
+        }
+      },
+      {
+        "name": "Splattershot",
+        "localized_name": {
+          "ja_JP": "スプラシューター",
+          "en_US": "Splattershot"
+        }
+      },
+      {
+        "name": "Tentatek Splattershot",
+        "localized_name": {
+          "ja_JP": "スプラシューターコラボ",
+          "en_US": "Tentatek Splattershot"
+        }
+      },
+      {
+        "name": "Splattershot Pro",
+        "localized_name": {
+          "ja_JP": "プライムシューター",
+          "en_US": "Splattershot Pro"
+        }
+      },
+      {
+        "name": "Forge Splattershot Pro",
+        "localized_name": {
+          "ja_JP": "プライムシューターコラボ",
+          "en_US": "Forge Splattershot Pro"
+        }
+      },
+      {
+        "name": "Aerospray MG",
+        "localized_name": {
+          "ja_JP": "プロモデラーMG",
+          "en_US": "Aerospray MG"
+        }
+      },
+      {
+        "name": "Aerospray RG",
+        "localized_name": {
+          "ja_JP": "プロモデラーRG",
+          "en_US": "Aerospray RG"
+        }
+      },
+      {
+        "name": "N-ZAP '85",
+        "localized_name": {
+          "ja_JP": "N-ZAP85",
+          "en_US": "N-ZAP '85"
+        }
+      },
+      {
+        "name": "N-ZAP '89",
+        "localized_name": {
+          "ja_JP": "N-ZAP89",
+          "en_US": "N-ZAP '89"
+        }
+      },
+      {
+        "name": "Sploosh-o-matic",
+        "localized_name": {
+          "ja_JP": "ボールドマーカー",
+          "en_US": "Sploosh-o-matic"
+        }
+      },
+      {
+        "name": "Splash-o-matic",
+        "localized_name": {
+          "ja_JP": "シャープマーカー",
+          "en_US": "Splash-o-matic"
+        }
+      },
+      {
+        "name": ".52 Gal",
+        "localized_name": {
+          "ja_JP": ".52ガロン",
+          "en_US": ".52 Gal"
+        }
+      },
+      {
+        "name": ".96 Gal",
+        "localized_name": {
+          "ja_JP": ".96ガロン",
+          "en_US": ".96 Gal"
+        }
+      },
+      {
+        "name": "Jet Squelcher",
+        "localized_name": {
+          "ja_JP": "ジェットスイーパー",
+          "en_US": "Jet Squelcher"
+        }
+      },
+      {
+        "name": "Custom Jet Squelcher",
+        "localized_name": {
+          "ja_JP": "ジェットスイーパーカスタム",
+          "en_US": "Custom Jet Squelcher"
+        }
+      },
+      {
+        "name": "L-3 Nozzlenose",
+        "localized_name": {
+          "ja_JP": "L3リールガン",
+          "en_US": "L-3 Nozzlenose"
+        }
+      },
+      {
+        "name": "L-3 Nozzlenose D",
+        "localized_name": {
+          "ja_JP": "L3リールガンD",
+          "en_US": "L-3 Nozzlenose D"
+        }
+      },
+      {
+        "name": "H-3 Nozzlenose",
+        "localized_name": {
+          "ja_JP": "H3リールガン",
+          "en_US": "H-3 Nozzlenose"
+        }
+      },
+      {
+        "name": "Squeezer",
+        "localized_name": {
+          "ja_JP": "ボトルガイザー",
+          "en_US": "Squeezer"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Dualies",
+    "localized_name": {
+      "ja_JP": "マニューバー",
+      "en_US": "Dualies"
+    },
+    "weapons": [
+      {
+        "name": "Splat Dualies",
+        "localized_name": {
+          "ja_JP": "スプラマニューバー",
+          "en_US": "Splat Dualies"
+        }
+      },
+      {
+        "name": "Enperry Splat Dualies",
+        "localized_name": {
+          "ja_JP": "スプラマニューバーコラボ",
+          "en_US": "Enperry Splat Dualies"
+        }
+      },
+      {
+        "name": "Dualie Squelchers",
+        "localized_name": {
+          "ja_JP": "デュアルスイーパー",
+          "en_US": "Dualie Squelchers"
+        }
+      },
+      {
+        "name": "Dapple Dualies",
+        "localized_name": {
+          "ja_JP": "スパッタリー",
+          "en_US": "Dapple Dualies"
+        }
+      },
+      {
+        "name": "Glooga Dualies",
+        "localized_name": {
+          "ja_JP": "ケルビン525",
+          "en_US": "Glooga Dualies"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Rollers",
+    "localized_name": {
+      "ja_JP": "ローラー",
+      "en_US": "Rollers"
+    },
+    "weapons": [
+      {
+        "name": "Splat Roller",
+        "localized_name": {
+          "ja_JP": "スプラローラー",
+          "en_US": "Splat Roller"
+        }
+      },
+      {
+        "name": "Krak-On Splat Roller",
+        "localized_name": {
+          "ja_JP": "スプラローラーコラボ",
+          "en_US": "Krak-On Splat Roller"
+        }
+      },
+      {
+        "name": "Carbon Roller",
+        "localized_name": {
+          "ja_JP": "カーボンローラー",
+          "en_US": "Carbon Roller"
+        }
+      },
+      {
+        "name": "Dynamo Roller",
+        "localized_name": {
+          "ja_JP": "ダイナモローラー",
+          "en_US": "Dynamo Roller"
+        }
+      },
+      {
+        "name": "Gold Dynamo Roller",
+        "localized_name": {
+          "ja_JP": "ダイナモローラーテスラ",
+          "en_US": "Gold Dynamo Roller"
+        }
+      },
+      {
+        "name": "Flingza Roller",
+        "localized_name": {
+          "ja_JP": "ヴァリアブルローラー",
+          "en_US": "Flingza Roller"
+        }
+      },
+      {
+        "name": "Foil Flingza Roller",
+        "localized_name": {
+          "ja_JP": "ヴァリアブルローラーフォイル",
+          "en_US": "Foil Flingza Roller"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Brushes",
+    "localized_name": {
+      "ja_JP": "フデ",
+      "en_US": "Brushes"
+    },
+    "weapons": [
+      {
+        "name": "Inkbrush",
+        "localized_name": {
+          "ja_JP": "パブロ",
+          "en_US": "Inkbrush"
+        }
+      },
+      {
+        "name": "Inkbrush Nouveau",
+        "localized_name": {
+          "ja_JP": "パブロ・ヒュー",
+          "en_US": "Inkbrush Nouveau"
+        }
+      },
+      {
+        "name": "Octobrush",
+        "localized_name": {
+          "ja_JP": "ホクサイ",
+          "en_US": "Octobrush"
+        }
+      },
+      {
+        "name": "Octobrush Nouveau",
+        "localized_name": {
+          "ja_JP": "ホクサイ・ヒュー",
+          "en_US": "Octobrush Nouveau"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Blasters",
+    "localized_name": {
+      "ja_JP": "ブラスター",
+      "en_US": "Blasters"
+    },
+    "weapons": [
+      {
+        "name": "Blaster",
+        "localized_name": {
+          "ja_JP": "ホットブラスター",
+          "en_US": "Blaster"
+        }
+      },
+      {
+        "name": "Custom Blaster",
+        "localized_name": {
+          "ja_JP": "ホットブラスターカスタム",
+          "en_US": "Custom Blaster"
+        }
+      },
+      {
+        "name": "Range Blaster",
+        "localized_name": {
+          "ja_JP": "ロングブラスター",
+          "en_US": "Range Blaster"
+        }
+      },
+      {
+        "name": "Rapid Blaster",
+        "localized_name": {
+          "ja_JP": "ラピッドブラスター"
+        }
+      },
+      {
+        "name": "Rapid Blaster Pro",
+        "localized_name": {
+          "ja_JP": "Rブラスターエリート"
+        }
+      },
+      {
+        "name": "Luna Blaster",
+        "localized_name": {
+          "ja_JP": "ノヴァブラスター",
+          "en_US": "Luna Blaster"
+        }
+      },
+      {
+        "name": "Clash Blaster",
+        "localized_name": {
+          "ja_JP": "クラッシュブラスター",
+          "en_US": "Clash Blaster"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Brellas",
+    "localized_name": {
+      "ja_JP": "シェルター",
+      "en_US": "Brellas"
+    },
+    "weapons": [
+      {
+        "name": "Splat Brella",
+        "localized_name": {
+          "ja_JP": "パラシェルター",
+          "en_US": "Splat Brella"
+        }
+      },
+      {
+        "name": "Undercover Brella",
+        "localized_name": {
+          "ja_JP": "スパイガジェット",
+          "en_US": "Undercover Brella"
+        }
+      },
+      {
+        "name": "Tenta Brella",
+        "localized_name": {
+          "ja_JP": "キャンピングシェルター",
+          "en_US": "Tenta Brella"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Sloshers",
+    "localized_name": {
+      "ja_JP": "スロッシャー",
+      "en_US": "Sloshers"
+    },
+    "weapons": [
+      {
+        "name": "Slosher",
+        "localized_name": {
+          "ja_JP": "バケットスロッシャー",
+          "en_US": "Slosher"
+        }
+      },
+      {
+        "name": "Tri-Slosher",
+        "localized_name": {
+          "ja_JP": "ヒッセン",
+          "en_US": "Tri-Slosher"
+        }
+      },
+      {
+        "name": "Sloshing Machine",
+        "localized_name": {
+          "ja_JP": "スクリュースロッシャー",
+          "en_US": "Sloshing Machine"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Chargers",
+    "localized_name": {
+      "ja_JP": "チャージャー",
+      "en_US": "Chargers"
+    },
+    "weapons": [
+      {
+        "name": "Splat Charger",
+        "localized_name": {
+          "ja_JP": "スプラチャージャー",
+          "en_US": "Splat Charger"
+        }
+      },
+      {
+        "name": "Firefin Splat Charger",
+        "localized_name": {
+          "ja_JP": "スプラチャージャーコラボ",
+          "en_US": "Firefin Splat Charger"
+        }
+      },
+      {
+        "name": "Splatterscope",
+        "localized_name": {
+          "ja_JP": "スプラスコープ",
+          "en_US": "Splatterscope"
+        }
+      },
+      {
+        "name": "Firefin Splatterscope",
+        "localized_name": {
+          "ja_JP": "スプラスコープコラボ",
+          "en_US": "Firefin Splatterscope"
+        }
+      },
+      {
+        "name": "Classic Squiffer",
+        "localized_name": {
+          "ja_JP": "スクイックリンα",
+          "en_US": "Classic Squiffer"
+        }
+      },
+      {
+        "name": "E-liter 4K",
+        "localized_name": {
+          "ja_JP": "リッター4K",
+          "en_US": "E-liter 4K"
+        }
+      },
+      {
+        "name": "E-liter 4K Scope",
+        "localized_name": {
+          "ja_JP": "4Kスコープ",
+          "en_US": "E-liter 4K Scope"
+        }
+      },
+      {
+        "name": "Goo Tuber",
+        "localized_name": {
+          "ja_JP": "ソイチューバー",
+          "en_US": "Goo Tuber"
+        }
+      },
+      {
+        "name": "Bamboozler 14 Mk I",
+        "localized_name": {
+          "ja_JP": "14式竹筒銃・甲",
+          "en_US": "Bamboozler 14 Mk I"
+        }
+      }
+    ]
+  },
+  {
+    "type": "Splatlings",
+    "localized_name": {
+      "ja_JP": "スピナー",
+      "en_US": "Splatlings"
+    },
+    "weapons": [
+      {
+        "name": "Heavy Splatling",
+        "localized_name": {
+          "ja_JP": "バレルスピナー",
+          "en_US": "Heavy Splatling"
+        }
+      },
+      {
+        "name": "Heavy Splatling Deco",
+        "localized_name": {
+          "ja_JP": "バレルスピナーデコ",
+          "en_US": "Heavy Splatling Deco"
+        }
+      },
+      {
+        "name": "Mini Splatling",
+        "localized_name": {
+          "ja_JP": "スプラスピナー",
+          "en_US": "Mini Splatling"
+        }
+      },
+      {
+        "name": "Hydra Splatling",
+        "localized_name": {
+          "ja_JP": "ハイドラント",
+          "en_US": "Hydra Splatling"
+        }
+      }
+    ]
+  }
+]

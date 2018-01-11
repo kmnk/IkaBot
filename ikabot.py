@@ -1,27 +1,63 @@
-import discord
+import random
+from logging import basicConfig, getLogger, DEBUG, INFO
+from typing import List
 
-client = discord.Client()
+from discord.ext import commands
 
-@client.event
+import data
+import env
+import model.weapons
+from type.language import Language
+from type.weapon import Weapon
+
+env = env.Env()
+
+logger = getLogger(__name__)
+basicConfig(level=DEBUG if env.debug else INFO)
+
+bot = commands.Bot(command_prefix=env.prefix, description='Bot for enjoying Splatoon2')
+data = data.Data(env)
+
+@bot.event
 async def on_ready():
-    print('Logged in as')
-    print(client.user.name)
-    print(client.user.id)
-    print('------')
+    logger.info('Logged in as')
+    logger.info('- name: ' + bot.user.name)
+    logger.info('- id: ' + bot.user.id)
 
-@client.event
+@bot.group(pass_context=True)
+async def rand(ctx):
+    if ctx.invoked_subcommand is None:
+        await bot.say('rand sub-commands are [weapon]')
+
+@rand.command()
+async def weapon(*, arg:str):
+    weapons = []
+
+    types = arg.split(' ')
+    if 'all' in types:
+        weapons = data.all_weapons
+    else:
+        wtypes = Weapon.from_str_arr(types)
+        for ws in data.weapons:
+            if ws.type in wtypes:
+                weapons.extend(ws.list)
+
+    if len(weapons) <= 0:
+        await bot.say('No weapon candidates')
+    else:
+        await bot.say(random.choice(weapons).localized_name)
+
+@bot.event
 async def on_message(message):
-    if message.content.startswith("Hello IkaBot!"):
-        if client.user == message.author: return
+    logger.debug('{0}: {1}'.format(message.author, message.content))
 
-        m = "Hello " + message.author.name + " !!"
+    if bot.user == message.author:
+        return await bot.process_commands(message)
 
-        await client.send_message(message.channel, m)
+    await bot.process_commands(message)
 
-def read_token():
-    with open('TOKEN') as f:
-        arr = [line.rstrip() for line in f]
+def main():
+    logger.info('Starting IkaBot')
+    bot.run(data.token)
 
-    return arr[0]
-
-client.run(read_token())
+if __name__ == '__main__': main()
