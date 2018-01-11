@@ -68,5 +68,8 @@ You can specify space separated weapon types for filtering weapon candidates
 - chargers
 - splatlings
 
+## License
+MIT
+
 [discordpy]:https://github.com/Rapptz/discord.py
 [docker]:https://www.docker.com/
