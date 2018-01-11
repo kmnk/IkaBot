@@ -30,7 +30,7 @@ async def rand(ctx):
         await bot.say('rand sub-commands are [weapon]')
 
 @rand.command()
-async def weapon(*, arg:str):
+async def weapon(count:int=1, *, arg:str='all'):
     weapons = []
 
     types = arg.split(' ')
@@ -45,7 +45,8 @@ async def weapon(*, arg:str):
     if len(weapons) <= 0:
         await bot.say('No weapon candidates')
     else:
-        await bot.say(random.choice(weapons).localized_name)
+        for i in range(min(count, 8)):
+            await bot.say('{0}: {1}'.format(str(i+1), random.choice(weapons).localized_name))
 
 @bot.event
 async def on_message(message):

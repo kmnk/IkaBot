@@ -44,29 +44,31 @@ $ docker run -e PREFIX=! -it ikabot
 ```
 
 ## Commands
-### rand weapon (target weapon types)
+### rand weapon `[count]` `[target_weapon_types]`
 Select weapon at random
 
 ```
-kmnk> ?rand weapon all
+kmnk> ?rand weapon
 IkaBot> Splattershot Jr.
-kmnk> ?rand weapon chargers rollers
+kmnk> ?rand weapon 1 chargers rollers
 IkaBot> Foil Flingza Roller
 ```
 
-You can specify space separated weapon types for filtering weapon candidates
-
-#### Weapon Types
-- all
-- shooters
-- dualies
-- rollers
-- brushes
-- blasters
-- brellas
-- sloshers
-- chargers
-- splatlings
+#### Parameters
+- `count`
+    - select count(default:1)
+- `target_weapon_types`
+    - space separated weapon types for filtering weapon candidates(default:all)
+        - all
+        - shooters
+        - dualies
+        - rollers
+        - brushes
+        - blasters
+        - brellas
+        - sloshers
+        - chargers
+        - splatlings
 
 ## License
 MIT
