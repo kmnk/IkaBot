@@ -13,6 +13,22 @@ $ docker build -t ikabot -f Dockerfile .
 $ docker run -it ikabot
 ```
 
+Executing commands sample:
+```
+$ cd IkaBot
+$ cat TOKEN
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+$ docker build -t ikabot -f Dockerfile .
+...
+Successfully tagged ikabot:latest
+$ docker run -it ikabot
+...
+INFO:__main__:Logged in as
+INFO:__main__:- name: IkaBot
+INFO:__main__:- id: 000000000000000000
+------
+```
+
 ### Language
 If you want to use this bot in Japanese, specify `-e LANGUAGE=ja_JP` environment option on execute `docker run` command
 ```
@@ -51,21 +67,6 @@ You can specify space separated weapon types for filtering weapon candidates
 - sloshers
 - chargers
 - splatlings
-
-## Executing commands sample
-```
-$ cd IkaBot
-$ cat TOKEN
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-$ docker build -t ikabot -f Dockerfile .
-...
-Successfully tagged ikabot:latest
-$ docker run -it ikabot
-Logged in as
-IkaBot
-123456789012345678
-------
-```
 
 [discordpy]:https://github.com/Rapptz/discord.py
 [docker]:https://www.docker.com/
