@@ -50,7 +50,7 @@ Select weapon at random
 ```
 kmnk> ?rand weapon all
 IkaBot> Splattershot Jr.
-kmnk> ?rand weapon chergers rollers
+kmnk> ?rand weapon chargers rollers
 IkaBot> Foil Flingza Roller
 ```
 
